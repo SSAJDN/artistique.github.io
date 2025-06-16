@@ -1,0 +1,505 @@
+/* 
+
+.source-code-pro-<uniquifier> {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+
+h1{
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-style: thin;
+}
+
+body{
+    background-color: #ece7dc;
+    width: 100%;
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 40px 0 50px;
+}
+
+
+
+.navbarlink{
+    background-color: rgba(16, 99, 71, 0.007);
+    border: none;
+    border-radius: 31%;
+}
+
+.painter-info{
+    text-align: center;
+    font-size: 30px;
+}
+
+.navlinks > a > button {
+      font-family: "Source Code Pro", monospace;
+     font-optical-sizing: auto;
+ 
+  font-style: normal;
+}
+.main{
+   display: flex;
+   flex-direction: column;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+}
+
+.img-top{
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+.img-middle{
+    align-items: center; justify-content: space-around;
+
+}
+.img-bottom{
+    align-items: center; 
+    justify-content: center;
+
+}
+.img-card{ 
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+    padding: 1.4%;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(182, 196, 132, 0.089);
+    width: 20rem;
+
+    transition: 0.4s;
+
+
+}
+
+.img-card > h3{
+  font-size: 100%;
+}
+
+.img-card > img{
+    width: 8rem;
+    height: auto;
+}
+.text-div, .text-div > p, .text-div > h3{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    justify-content: space-between;
+
+}
+.text-div{
+    padding-left: 1.7%;
+}
+
+.img-card:hover{ 
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+    padding: 1.4%;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(147, 185, 9, 0.575);
+    width: 25rem;
+    height: auto;
+}
+
+/* 
+
+/* 
+
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+
+.open-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #7a7c0556;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+.panel {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 50vw;
+  height: 100%;
+  background: white;
+  box-shadow: -4px 0 10px rgba(77, 139, 15, 0.2);
+  padding: 20px;
+  
+ 
+  transform: translateY(100%);
+  transition: transform 0.5s ease;
+  z-index: 10;
+}
+
+#togglePanel:checked ~ .panel {
+    top: 5%;
+    transform: translateY(0);
+}
+
+
+
+
+
+.open-btn2 {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #7a7c0556;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+.panel2 {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 50vw;
+  height: 100%;
+  background: white;
+  box-shadow: -4px 0 10px rgba(77, 139, 15, 0.2);
+  padding: 20px;
+  
+ 
+  transform: translateY(100%);
+  transition: transform 0.5s ease;
+  z-index: 10;
+}
+
+#togglePanel2:checked ~ .panel2 {
+    top: 5%;
+    transform: translateY(0);
+}
+
+
+
+.open-btn3 {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #7a7c0556;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+.panel3 {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 50vw;
+  height: 100%;
+  background: white;
+  box-shadow: -4px 0 10px rgba(77, 139, 15, 0.2);
+  padding: 20px;
+  
+ 
+  transform: translateY(100%);
+  transition: transform 0.5s ease;
+  z-index: 10;
+}
+
+#togglePanel3:checked ~ .panel3 {
+    top: 5%;
+    transform: translateY(0);
+}
+
+
+
+.open-btn4 {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #7a7c0556;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+.panel4 {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 50vw;
+  height: 100%;
+  background: white;
+  box-shadow: -4px 0 10px rgba(77, 139, 15, 0.2);
+  padding: 20px;
+  
+ 
+  transform: translateY(100%);
+  transition: transform 0.5s ease;
+  z-index: 10;
+}
+
+#togglePanel4:checked ~ .panel4 {
+    top: 5%;
+    transform: translateY(0);
+}
+
+.open-btn5 {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #7a7c0556;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+.panel5 {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 50vw;
+  height: 100%;
+  background: white;
+  box-shadow: -4px 0 10px rgba(77, 139, 15, 0.2);
+  padding: 20px;
+  
+ 
+  transform: translateY(100%);
+  transition: transform 0.5s ease;
+  z-index: 10;
+}
+
+#togglePanel5:checked ~ .panel5 {
+    top: 5%;
+    transform: translateY(0);
+}  */
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+
+/* 1 */
+.open-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #7a7c0556;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+.panel {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 70vw;
+  height: 100%;
+  background: white;
+  box-shadow: -4px 0 10px rgba(77, 139, 15, 0.2);
+  padding: 20px;
+
+  transform: translateY(100%);
+  transition: transform 0.5s ease;
+  z-index: 10;
+}
+
+/* changed from checkbox to radio */
+#togglePanel:checked ~ .panel {
+  top: 5%;
+  transform: translateY(0);
+}
+
+
+/* 2 */
+.open-btn2 {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #7a7c0556;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+.panel2 {
+  position: fixed;
+  
+  bottom: 0;
+  right: 0;
+    width: 70vw;
+  height: 100%;
+  background: white;
+  box-shadow: -4px 0 10px rgba(77, 139, 15, 0.2);
+  padding: 20px;
+
+  transform: translateY(100%);
+  transition: transform 0.5s ease;
+  z-index: 10;
+}
+
+#togglePanel2:checked ~ .panel2 {
+  top: 5%;
+  transform: translateY(0);
+}
+
+/* 3 */
+.open-btn3 {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #7a7c0556;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+.panel3 {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 50vw;
+  height: 100%;
+  background: white;
+  box-shadow: -4px 0 10px rgba(77, 139, 15, 0.2);
+  padding: 20px;
+
+  transform: translateY(100%);
+  transition: transform 0.5s ease;
+  z-index: 10;
+}
+
+#togglePanel3:checked ~ .panel3 {
+  top: 5%;
+  transform: translateY(0);
+}
+
+/* 4 */
+.open-btn4 {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #7a7c0556;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+.panel4 {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 50vw;
+  height: 100%;
+  background: white;
+  box-shadow: -4px 0 10px rgba(77, 139, 15, 0.2);
+  padding: 20px;
+
+  transform: translateY(100%);
+  transition: transform 0.5s ease;
+  z-index: 10;
+}
+
+#togglePanel4:checked ~ .panel4 {
+  top: 5%;
+  transform: translateY(0);
+}
+
+/* 5 */
+.open-btn5 {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #7a7c0556;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+.panel5 {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 50vw;
+  height: 100%;
+  background: white;
+  box-shadow: -4px 0 10px rgba(77, 139, 15, 0.2);
+  padding: 20px;
+
+  transform: translateY(100%);
+  transition: transform 0.5s ease;
+  z-index: 10;
+}
+
+#togglePanel5:checked ~ .panel5 {
+  top: 5%;
+  transform: translateY(0);
+}
+
+
+#togglePanel1:checked ~ .panel,
+#togglePanel2:checked ~ .panel2,
+#togglePanel3:checked ~ .panel3,
+#togglePanel4:checked ~ .panel4,
+#togglePanel5:checked ~ .panel5 {
+  transform: translateY(0);
+  opacity: 1;
+  z-index: 2;
+}
+
+/* Hide all panels by default */
+.panel, .panel2, .panel3, .panel4, .panel5 {
+  transform: translateY(100%); 
+  opacity: 0;
+  transition: all 0.4s ease;
+  /* position: relative; */
+  z-index: 1;
+  top: 10px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background-color: rgba(220, 20, 60, 0);
+  color: rgb(36, 31, 31);
+  border: none;
+  font-size: 18px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+  z-index: 3;
+}
+
+.panel-inside-div{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.panel-img{
+    display: inline;
+    width: 250px;
+}
